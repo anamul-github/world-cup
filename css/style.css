@@ -140,6 +140,7 @@ main {
     grid-template-columns: repeat(3, 1fr);
     row-gap: 24px;
 
+
 }
 
 .blogs {
@@ -149,8 +150,27 @@ main {
     box-shadow: 0 0 1px gray;
     box-shadow: 0 0 1px gray;
     border-radius: 10px;
+
 }
 
 .blog-thumbnail>img {
     width: 100%;
+}
+
+.blog-info {
+    padding: 20px;
+}
+
+.blog-info a {
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+
+.blog-info h4 {
+    margin-top: 15px;
+}
+
+.blog-info p {
+    margin-top: 20px;
 }
