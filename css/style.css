@@ -81,8 +81,9 @@ main {
 
 .button-blog-container {
     display: flex;
-    /* width: 1320px; */
     margin-left: 110px;
+    margin-right: 110px;
+    width: 100%;
 }
 
 
@@ -94,7 +95,6 @@ main {
     height: 312px;
     border-radius: 10px;
     margin-right: 24px;
-    /* margin-left: 140px; */
 
 }
 
@@ -163,12 +163,15 @@ main {
 
 .blog-info a {
     text-decoration: none;
-    border: 1px solid black;
-    padding: 5px 10px;
+    border: 1.5px solid black;
+    padding: 3px 8px;
+    font-size: 16px;
+    width: 67px;
+    height: 24px;
 }
 
 .blog-info h4 {
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 .blog-info p {
