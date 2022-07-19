@@ -19,7 +19,8 @@ main {
     background-color: black;
     width: 1320px;
     height: 650px;
-    margin-top: 50px;
+    border-radius: 30px;
+    margin: 50px 140px 0 140px;
 }
 
 .top-banner {
@@ -41,17 +42,28 @@ main {
 .heading-content h1 {
     font-size: 70px;
     font-weight: 700;
+    line-height: 80px;
+}
+
+.heading-content p {
+    padding-top: 20px;
+    padding-bottom: 45px;
 }
 
 
 
 .heading-content a {
+
     text-decoration: none;
     color: white;
-    background-color: tomato;
+    background-color: #DD0000;
     padding: 16px 25px;
     border-radius: 10px;
 
+}
+
+.fa-angle-right {
+    padding-left: 10px;
 }
 
 
