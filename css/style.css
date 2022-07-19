@@ -19,7 +19,7 @@ main {
     background-color: black;
     height: 645px;
     border-radius: 30px;
-    margin: 50px 140px 130px 140px;
+    margin: 50px 110px 130px 110px;
 
 }
 
@@ -69,7 +69,7 @@ main {
 .banner-img {
     width: 50%;
     margin-right: 80px;
-    margin-top: 39px;
+    margin-top: 7px;
 
 }
 
@@ -82,10 +82,7 @@ main {
 .button-blog-container {
     display: flex;
     /* width: 1320px; */
-
-    margin-left: 140px;
-
-
+    margin-left: 110px;
 }
 
 
@@ -141,5 +138,19 @@ main {
 .blog-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin-right: 140px;
+    row-gap: 24px;
+
+}
+
+.blogs {
+    height: 362px;
+    width: 300px;
+    margin-right: 24px;
+    box-shadow: 0 0 1px gray;
+    box-shadow: 0 0 1px gray;
+    border-radius: 10px;
+}
+
+.blog-thumbnail>img {
+    width: 100%;
 }
