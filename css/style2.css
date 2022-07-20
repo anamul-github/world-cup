@@ -194,7 +194,7 @@ main {
 /* Footer Section  */
 
 footer {
-    width: 1600px;
+    max-width: 1600px;
     height: 444px;
     background-color: black;
 }
@@ -205,6 +205,11 @@ footer h3 {
     font-size: 40px;
     margin-top: 130px;
     margin-bottom: 50px;
+}
+
+footer hr {
+    width: 80%;
+    margin-left: 7.5%;
 }
 
 .footer-link {
