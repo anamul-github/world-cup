@@ -28,7 +28,15 @@ main {
     justify-content: center;
     align-items: center;
     width: 100%;
+    transition: width 2s linear 1s;
 }
+
+/* Transition-Hover  */
+
+.top-banner:hover {
+    width: 105%;
+}
+
 
 .heading-content {
     width: 50%;
