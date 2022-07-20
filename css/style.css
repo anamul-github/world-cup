@@ -216,7 +216,7 @@ footer hr {
 
 @media only screen and (max-width:688px) {
     .container {
-        height: 850px;
+        height: 900px;
         margin: 25px 25px;
     }
 
@@ -233,4 +233,48 @@ footer hr {
         padding: 20px 20px;
 
     }
+
+    .button-blog-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+
+    }
+
+    .button-container {
+        margin: 0 150px 30px;
+
+    }
+
+    .blog-container {
+        display: flex;
+        flex-direction: column;
+        column-gap: 24px;
+        margin-bottom: 50px;
+
+    }
+
+    .blogs {
+        height: 510px;
+        width: 92%;
+        margin: 0 25px;
+        text-align: center;
+    }
+
+    footer {
+        height: 800px;
+    }
+
+    .footer-link {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-link a {
+        text-align: center;
+
+
+    }
+
 }
