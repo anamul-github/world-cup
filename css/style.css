@@ -177,6 +177,20 @@ main {
     margin-top: 20px;
 }
 
+.view-all {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background-color: #DD0000;
+    padding: 16px 25px;
+    border-radius: 5px;
+    margin: 0 400px 30px;
+    min-width: 150px;
+
+
+}
+
+
 /* Footer Section  */
 
 footer {
@@ -262,6 +276,10 @@ footer hr {
         text-align: center;
     }
 
+    .view-all {
+        display: none;
+    }
+
     footer {
         height: 800px;
     }
@@ -277,4 +295,84 @@ footer hr {
 
     }
 
+}
+
+
+/* Media Query for iPad/Tab  */
+
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+
+    .container {
+        margin-bottom: 0;
+    }
+
+    .button-blog-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+
+    }
+
+    .button-container {
+        background-color: white;
+        width: 100%;
+        border-radius: 10px;
+
+
+    }
+
+    .button-parent {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 100%;
+
+    }
+
+    .button {
+        text-decoration: none;
+        text-align: center;
+        color: black;
+        background-color: white;
+        padding: 15px 30px;
+        max-width: 252px;
+        height: 64px;
+        box-shadow: 0 0 1px gray;
+        box-shadow: 0 0 1px gray;
+        border-radius: 10px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .blog-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 24px;
+        margin-bottom: 50px;
+
+    }
+
+    .blogs {
+        height: 510px;
+        width: 92%;
+        margin: 0 25px;
+        text-align: center;
+    }
+
+    .hiding-blog {
+        display: none;
+    }
+
+
+
+
+}
+
+
+/* Media Query for desktop  */
+
+@media only screen and (min-width: 993px) {
+    .view-all {
+        display: none;
+    }
 }
