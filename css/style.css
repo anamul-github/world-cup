@@ -33,9 +33,9 @@ main {
 
 /* Transition-Hover  */
 
-.top-banner:hover {
+/* .top-banner:hover {
     width: 105%;
-}
+} */
 
 .heading-content {
     width: 50%;
@@ -352,6 +352,7 @@ footer hr {
         display: flex;
         flex-direction: column;
         margin: 0;
+
 
     }
 
